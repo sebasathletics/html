@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Formularis </title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Emplenar</legend>
+           <p><input type="radio" name="idioma" value="idiomaangles"> Anglés </p>
+           <p><input type="radio" name="idioma" value="idiomaalemany"> Alemany </p>
+           <p><input type="radio" name="idioma" value="idiomafrances">Francés</p>
+          <p><select name="Connector">
+            <option value="usb">USB</option>
+            <option value="paral·lel">Paral·lel</option>
+            <option value="ps2">PS"</option>
+           </select></p> 
+         <p> Nom <input type="text" name="nom"></p> 
+         <p>Cognoms <input type="text" name="cognoms"></p>
+        </fieldset>
+        <fieldset>
+            <legend>Indique sus preferencias</legend>
+         <p><select multiple name="Sexe"> 
+            <option value="home">Home</option>
+            <option value="dona">Dona</option>
+            <option value="intersex">Intersex</option>
+         </select></p>
+         <p><input type="checkbox" name="sexe" value="sexedona">Dona</p>
+         <p><input type="checkbox" name="sexe" value="sexehome">Home</p>
+         <p><input type="checkbox" name="sexe" value="sexeintersex">Intersex</p>
+         <p>Trie una data <input type="date"></p>
+        </fieldset>
+        <input type="submit" value="enviar">
+
+        </form>
+    </body>
+</html>
